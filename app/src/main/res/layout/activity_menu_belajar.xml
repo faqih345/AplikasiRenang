@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MenuBelajar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/navbar"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_anim"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:text="Menu Belajar"
+            android:layout_gravity="center"
+            android:fontFamily="@font/babyblue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:text="Pengertian Olahraga Renang"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/light_dark"
+            android:background="@drawable/bt4_anim"
+            android:fontFamily="@font/babyblue"
+            android:layout_margin="5dp"
+            android:onClick="PengRenang"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:text=" Sejarah Olahraga Renang"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/light_dark"
+            android:background="@drawable/bt4_anim"
+            android:fontFamily="@font/babyblue"
+            android:layout_margin="5dp"
+            android:onClick="SejRenang"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Teknik dan Gaya Renang"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/light_dark"
+            android:background="@drawable/bt4_anim"
+            android:fontFamily="@font/babyblue"
+            android:layout_margin="5dp"
+            android:onClick="TekRenang"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Teknik Dasar"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/light_dark"
+            android:background="@drawable/bt4_anim"
+            android:fontFamily="@font/babyblue"
+            android:layout_margin="5dp"
+            android:onClick="TekDasar"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Fasilitas dan Perlengkapan"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/light_dark"
+            android:background="@drawable/bt4_anim"
+            android:fontFamily="@font/babyblue"
+            android:layout_margin="5dp"
+            android:onClick="FasPerlengkapan"/>
+    </LinearLayout>
+
+</LinearLayout>

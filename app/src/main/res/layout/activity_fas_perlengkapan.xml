@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".FasPerlengkapan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/navbar"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_anim"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:text="Fasilitas dan Perlengkapan"
+            android:layout_gravity="center"
+            android:fontFamily="@font/babyblue"  />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/kolam_renang"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Kolam Renang"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/lintasan"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Lintasan"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas2"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/balok_start"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Balok start"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas3"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/pakaian_renang"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Pakaian Renang"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas4"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/kacamata_renang"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Kacamata Renang"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas5"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/topi_renang"/>
+                    <Button
+                        android:layout_width="160dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:textAllCaps="false"
+                        android:text="Topi Renang"
+                        android:textSize="25sp"
+                        android:background="@drawable/bt1_anim"
+                        android:fontFamily="@font/babyblue"
+                        android:onClick="fas6"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

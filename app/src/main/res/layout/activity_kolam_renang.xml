@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".KolamRenang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/navbar"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_anim"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:text="Kolam Renang"
+            android:layout_gravity="center"
+            android:fontFamily="@font/babyblue" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Pandu Jaya Sport Center"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Elmo's Sport Club"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Swimming Pool City Club"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Bintang Sport Center"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam4"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Green Park"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Emerald Spring"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam6"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Sport Center Puri Gading"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Jaka Permai Water Park"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam8"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="Kemang Pratama Sports Club"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/bt3_anim"
+                android:fontFamily="@font/babyblue"
+                android:layout_margin="3dp"
+                android:onClick="kolam9"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

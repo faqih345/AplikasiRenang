@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/navbar"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_anim"
+            android:id="@+id/tutup"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:fontFamily="@font/babyblue"
+            android:id="@+id/judul_kolam"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#3B85FF"
+                android:textSize="15sp"
+                android:id="@+id/deskripsi_kolam"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:text="Menuju Maps"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_dark"
+                android:layout_gravity="center"
+                android:background="@drawable/bt1_anim"
+                android:id="@+id/map"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
